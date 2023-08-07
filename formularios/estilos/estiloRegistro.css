@@ -1,0 +1,90 @@
+.formulario .entrada:invalid{
+    color: red;
+}
+
+.formulario .bi:valid{
+    color: green;
+}
+#campo1:valid+.icon{
+    color:green;
+}
+#campo1:invalid+.icon{
+    color:red;
+}
+#campo2:valid+.icon{
+    color:green;
+}
+#campo2:invalid+.icon{
+    color:red;
+}
+#campo3:valid+.icon{
+    color:green;
+}
+#campo3:invalid+.icon{
+    color:red;
+}
+#campo4:valid+.icon{
+    color:green;
+}
+#campo4:invalid+.icon{
+    color:red;
+}
+#campo5:valid+.icon{
+    color:green;
+}
+#campo5:invalid+.icon{
+    color:red;
+}
+.btn{
+    padding: rgb(15, 72, 95);
+    background-color: rgb(15, 72, 95);
+}
+.titulo{
+    text-align: center;
+    background-color: #08b2ff;
+    padding:80px;
+    font-family: 'Press Start 2P', cursive;
+    color:rgb(3, 141, 165);
+    animation: text 5s linear infinite;
+    
+}
+@keyframes text{
+    0%{
+        filter:hue-rotate(0deg);
+    }
+    100%{
+        filter:hue-rotate(360deg);
+    }
+}
+.titulo a{
+    display: flex;
+    margin-top: -100px;
+    text-decoration: none;
+}
+.titulo ul{
+    position: relative;
+    left:-80px;
+}
+.contenido{
+    background-color: #727875;
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+    padding: 200px;
+}
+.contenido img{
+    width: 250px;
+}
+.foot{
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+    background-color:#7e99e6;
+    
+}
+.foot img{
+    width: 2500px;
+}
+input{
+    color:rgb(3, 141, 165);
+    animation: text 5s linear infinite;
+
+}
