@@ -1,0 +1,54 @@
+body{
+    background-color: rgb(102, 136, 169);;
+}
+h1{
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+}
+.Imagenes{
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+    cursor: pointer;
+    box-shadow: 1px 10px 25px rgba(20, 20, 20, 0.5);
+    margin-left: 40px;
+    background-color: rgb(0, 217, 89);
+    opacity: 0.9;
+    margin-bottom: 100px;
+}
+.Imagenes img{
+    width: 380px;
+    height: 75%;
+    transition: 2s;
+    margin-left: 10px;
+    
+}
+.Imagenes img:hover{
+    transform: translateX(10%);
+    filter: brightness(80%)
+}
+li{
+    display: flex;
+    margin-right: 20px;
+    font-family: 'Press Start 2P', cursive;
+    margin-top: -50px;
+    margin-bottom: 100px;
+}
+ul a{
+    text-decoration: none;
+}
+
+.foot .img1{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    margin-top: -500px;
+}
+
+.foot{
+    text-align: center;
+    background-color: rgb(102, 136, 169);
+    font-family:"Press Start 2P", cursive;
+    color:rgb(37, 55, 73);
+    padding: 10px;
+}

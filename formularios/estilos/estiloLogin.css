@@ -1,34 +1,38 @@
-.Inicio {
-    text-align: center;
+
+body {
     font-family: 'Press Start 2P', cursive;
-    background-color: #17629f;
-    padding: 100px;
-}
-.Inicio a{
     display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+    background-image: url(/img/fondo.gif);
+}
+
+.contenedorr{
     font-family: 'Press Start 2P', cursive;
-    text-decoration: none;
 }
-.Inicio h1{
-    color: blue;
+  
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #126607;
+    border-radius: 20px;
+}
+  
+input[type="button"] {
+    background-color: #19a706;
+    color: #0c6600;
+    border: none;
+    border-radius: 20px;
+    padding: 15px 15px;
+    cursor: pointer;
+}
+h2{
+    color:rgb(0, 88, 104);
     animation: text 5s linear infinite;
-}
-.Inicio ul{
-    position: relative;
-    right: 100px;
-    margin-top: -150px;  
-    
-}
-.Inicio .img1{
-    width: 150px;
-    position: relative;
-    left: 550px;
-}
-.Inicio .img2{
-    width:120px;
-    position:relative;
-    right:580px;
-}
+}  
 @keyframes text{
     0%{
         filter:hue-rotate(0deg);
@@ -37,29 +41,14 @@
         filter:hue-rotate(360deg);
     }
 }
+#form-id #Usuario{
+    color:rgb(3, 141, 165);
+    animation: text 5s linear infinite;
+    font-size: 15px;
+}
+#form-id #Password{
+    color:rgb(3, 141, 165);
+    animation: text 5s linear infinite;
+    font-size: 15px;    
+}
 
-.contenido{
-    text-align: center;
-    font-family: 'Press Start 2P', cursive;
-    color:#e6462a;
-    background-color: #7b9dff;
-    padding: 200px;
-}
-.btn-{
-    color: #e6462a;
-    animation:text 5s linear infinite;
-
-}
-.Inicio2 img{
-    width: 100px;
-    margin-left: -20px;
-}
-.footerr{
-    background-color: #17629f;
-    padding: 50px;
-    text-align: center;
-    font-family: 'Press Start 2P', cursive;
-}
-.panel{
-    text-align: center;
-}

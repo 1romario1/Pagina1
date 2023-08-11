@@ -1,53 +1,69 @@
-.formulario .entrada:invalid{
-    color: red;
+body{
+    background-color: rgb(3, 141, 165);
+}
+.Inicio{
+    text-decoration: none;
+    padding: 20px;
+    font-size: 20px;
+    font-family: 'Press Start 2P', cursive;
+}
+#resultado{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 25px;
+    margin-top: 100px;
 }
 
-.formulario .bi:valid{
-    color: green;
+#resultado .fld{
+    padding: 50px;
 }
-#campo1:valid+.icon{
-    color:green;
+#resultado .fld #Nombre{
+    padding: 15px;
+    color:rgb(3, 141, 165);
+    animation: text 5s linear infinite;
+    font-size: 15px;
 }
-#campo1:invalid+.icon{
-    color:red;
-}
-#campo2:valid+.icon{
-    color:green;
-}
-#campo2:invalid+.icon{
-    color:red;
-}
-#campo3:valid+.icon{
-    color:green;
-}
-#campo3:invalid+.icon{
-    color:red;
-}
-#campo4:valid+.icon{
-    color:green;
-}
-#campo4:invalid+.icon{
-    color:red;
-}
-#campo5:valid+.icon{
-    color:green;
-}
-#campo5:invalid+.icon{
-    color:red;
-}
-.btn{
-    padding: rgb(15, 72, 95);
-    background-color: rgb(15, 72, 95);
-}
-.titulo{
-    text-align: center;
-    background-color: #08b2ff;
-    padding:80px;
-    font-family: 'Press Start 2P', cursive;
+#resultado .fld #FechaNacimiento{
+    padding: 15px;
     color:rgb(3, 141, 165);
     animation: text 5s linear infinite;
     
 }
+#resultado .fld #verificacion{
+    padding: 15px;
+    color:rgb(3, 141, 165);
+    animation: text 5s linear infinite;
+    font-size: 15px;
+    font-family: 'Press Start 2P', cursive;
+}
+label{
+    color: rgb(0, 67, 78);
+}
+legend{
+    color: rgb(0, 67, 78);
+}
+#resultado .fld #Correo{
+    padding: 15px;
+    color:rgb(3, 141, 165);
+    animation: text 5s linear infinite;
+    font-size: 15px;
+}
+#resultado .fld #Contraseña{
+    padding: 15px;
+    color:rgb(3, 141, 165);
+    animation: text 5s linear infinite;
+    font-size: 15px;
+}
+#resultado #BtnEnviar{
+    padding: 15px;
+    color:rgb(3, 141, 165);
+    animation: text 5s linear infinite;
+    font-size: 15px;
+    font-family: 'Press Start 2P', cursive;
+}
+
 @keyframes text{
     0%{
         filter:hue-rotate(0deg);
@@ -56,35 +72,31 @@
         filter:hue-rotate(360deg);
     }
 }
-.titulo a{
-    display: flex;
-    margin-top: -100px;
-    text-decoration: none;
-}
-.titulo ul{
+
+
+.foot .img1{
+    width: 100px;
+    height: 100px;
     position: relative;
-    left:-80px;
+    margin-top: -500px;
 }
-.contenido{
-    background-color: #727875;
-    text-align: center;
-    font-family: 'Press Start 2P', cursive;
-    padding: 200px;
-}
-.contenido img{
-    width: 250px;
-}
+
 .foot{
     text-align: center;
-    font-family: 'Press Start 2P', cursive;
-    background-color:#7e99e6;
-    
+    background-color: rgb(102, 136, 169);
+    font-family:"Press Start 2P", cursive;
+    color:rgb(37, 55, 73);
+    padding: 10px;
+    padding: 150px;
+    margin-top: 500px;
 }
-.foot img{
-    width: 2500px;
-}
-input{
-    color:rgb(3, 141, 165);
-    animation: text 5s linear infinite;
 
+#form-id{
+    width: 90%;
+    max-width: 1000px;
+    padding: 4.5em 4em;
+    box-shadow: 0 5px 20px -10px rgb(0 0 0 /40%);
+    /*position: relative;
+    text-align: center;
+    align-items: center;*/
 }

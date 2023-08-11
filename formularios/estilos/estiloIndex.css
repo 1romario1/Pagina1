@@ -129,7 +129,6 @@ ul li a.validar{
     display: flex;
     background-color:  rgb(51, 224, 255);
     margin-bottom: -50px;
-    
 }
 
     
@@ -139,10 +138,12 @@ ul li a.validar{
     font-size:28px;
     display: inline-block;
     position: relative;
-    margin-left: 120px;
+    margin-left: 140px;
     margin-top: -20px;
     color:rgb(3, 141, 165);
     animation: text 5s linear infinite;
+    justify-content: center;
+    align-items: center;
     
 }
 .menu ul a{
@@ -154,7 +155,7 @@ ul li a.validar{
 }
 .menu ul{
     display: flex;
-    margin-left: 80px;
+    margin-left: 400px;
 }
 .menu .botonr{
     margin-left: 150px;
@@ -202,7 +203,11 @@ ul li a.validar{
     }
 }
 
-
+.caja2 #buscar{
+    color:rgb(3, 141, 165);
+    animation: text 5s linear infinite;
+    padding: 10px;
+}
 
 .caja1{
     background-color: rgb(0, 100, 41);
@@ -242,6 +247,7 @@ ul li a.validar{
 }
 .contenido{
     display: flex;
+    justify-content: center;
     
 }
 .logo4{
@@ -260,5 +266,20 @@ ul li a.validar{
 .caja2{
     background-color: rgb(0, 217, 89);
     text-align: center;
+}
+.caja2 .form a{
+    text-decoration: none;
+    font-family: 'Press Start 2P', cursive;
+    color:rgb(3, 141, 165);
+    animation: text 5s linear infinite;
+    position: relative;
+    font-size: 20px;
+}
+#resultado{
+    margin-top: -120px;
+}
+h1{
+    font-family: 'Press Start 2P', cursive;
+    color:rgb(4, 165, 194);
 }
 
