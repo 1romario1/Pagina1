@@ -1,0 +1,60 @@
+body{
+    background-color: rgb(0, 217, 89);
+}
+h1{
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+}
+a{
+    font-family: 'Press Start 2P', cursive;
+    text-decoration: none;
+}
+.imagenes2{
+    width:100%;
+    height: 500px;
+    background-color: rgb(51, 224, 255);
+    overflow: hidden;
+    
+}
+.imagenes2 ul{
+    display: flex;
+    animation:movimiento 20s infinite alternate linear;
+    width: 500px;
+}
+.imagenes2 li{
+    width:1000px;
+}
+.imagenes2 img{
+    width: 500px;
+    height: 500px;
+}
+@keyframes movimiento{
+    0%{margin-left:0;}
+    20%{margin-left:0;}
+
+    25%{margin-left:-80%;}
+    45%{margin-left:0;}
+
+    50%{margin-left: -50%;}
+    70%{margin-left:-50%;}
+   
+}
+p{
+    font-family: 'Press Start 2P', cursive;
+    font-size: 25px;
+}
+
+.foot .img1{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    margin-top: -500px;
+}
+
+.foot{
+    text-align: center;
+    background-color: rgb(102, 136, 169);
+    font-family:"Press Start 2P", cursive;
+    color:rgb(37, 55, 73);
+    padding: 10px;
+}

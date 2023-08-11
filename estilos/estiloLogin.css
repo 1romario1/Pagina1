@@ -1,0 +1,54 @@
+
+body {
+    font-family: 'Press Start 2P', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+    background-image: url(/img/fondo.gif);
+}
+
+.contenedorr{
+    font-family: 'Press Start 2P', cursive;
+}
+  
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #126607;
+    border-radius: 20px;
+}
+  
+input[type="button"] {
+    background-color: #19a706;
+    color: #0c6600;
+    border: none;
+    border-radius: 20px;
+    padding: 15px 15px;
+    cursor: pointer;
+}
+h2{
+    color:rgb(0, 88, 104);
+    animation: text 5s linear infinite;
+}  
+@keyframes text{
+    0%{
+        filter:hue-rotate(0deg);
+    }
+    100%{
+        filter:hue-rotate(360deg);
+    }
+}
+#form-id #Usuario{
+    color:rgb(3, 141, 165);
+    animation: text 5s linear infinite;
+    font-size: 15px;
+}
+#form-id #Password{
+    color:rgb(3, 141, 165);
+    animation: text 5s linear infinite;
+    font-size: 15px;    
+}
+
