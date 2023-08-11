@@ -27,40 +27,51 @@
         <img src="img/explocion.gif">
     </div>
     <div class="caja2">    
-        <form>
-        <input type="text" id="busqueda">
-        <button type="button" onclick="buscar()">Buscar</button>
+        <form name="form" class="form">
+        <input type="text" id="buscar">
+        <a href="#" type="button" onclick="buscar()">Buscar</a>
         </form>
-
-    
-    <div id="contenido">
-        <p>pc gamer</p>
-        <p>PC GAMER</p>
-        <p>celulares</p>
-        <p>CELULARES</p>
-        <p>CONSOLAS</p>
-        <p>consolas</p>
-    </div>
-    </div>
-
+        <br>
+        <h1>Indaga mas sobre alguna de estas 3 categorias</h1>
 
     <script>
         function buscar() {
-            // Obtener el valor del campo de búsqueda
-            var query = document.getElementById('busqueda').value.toLowerCase();
+            
+            var query = document.querySelectorAll('.form a');
 
-            // Obtener el contenido donde se realizará la búsqueda
-            var contenido = document.getElementById('contenido').innerText.toLowerCase();
+            
+            var busqueda = document.getElementById('buscar');
 
-            // Verificar si la query está presente en el contenido
-            if (contenido.includes(query)) {
-                // Mostrar el resultado de la búsqueda
-                document.getElementById('resultado').innerText = "Este articulo es adecuado para ti";
-            } else {
-                // Mostrar el resultado de la búsqueda
-                document.getElementById('resultado').innerText = "Lo que buscaste no fue reconosido";
+            var terraria="Terraria"
+
+            
+            if (busqueda.value=="computadoras gamer"||busqueda.value=="Computadores gamer"||busqueda.value=="computadores gamer"||busqueda.value=="computadores"){
+                query.forEach(function(element){
+                    element.href="busquedaComputadores.html"
+                })
+                return true
             }
+            else if(busqueda.value=="celulares gamer"||busqueda.value=="Celulares gamer"||busqueda.value=="celulares"||busqueda.value=="celular"){
+                query.forEach(function(element){
+                    element.href="busquedaCelulares.html"
+                })
+                return true
+
+            }
+            else if(busqueda.value=="consolas"||busqueda.value=="consola"||busqueda.value=="Consolas"||busqueda.value=="xbox"||busqueda.value=="play station"){
+                query.forEach(function(element){
+                    element.href="busquedaConsolas.html"
+                })
+                return true
+            }
+            else{
+                query.forEach(function(element){
+                    element.href="#"
+                })
+                return false
+            }           
         }
+         
     </script>
     
     <div id="resultado"></div>
@@ -70,14 +81,14 @@
                 <p>COMPUTADORES GAMER</p>
                 <img src="img/pc.png" alt="imagen de computador">
             </figure>
-        <figure class="Imagenes">
-            <p>CELULARES</p>
-            <img src="img/celular.png" alt="imagen de celular">
-        </figure>
-        <figure class="Imagenes">
-            <p>CONSOLAS</p>
-            <img src="img/consolas.png" alt="imagen de consolas">
-        </figure>
+            <figure class="Imagenes">
+                <p>CELULARES</p>
+                <img src="img/celular.png" alt="imagen de celular">
+             </figure>
+            <figure class="Imagenes">
+                <p>CONSOLAS</p>
+                <img src="img/consolas.png" alt="imagen de consolas">
+            </figure>
     
         </div>
     
